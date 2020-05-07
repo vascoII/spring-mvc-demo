@@ -1,1 +1,5 @@
 /WebContent/WEB-INF/lib/
+/build/
+.classpath
+.project
+.settings/
