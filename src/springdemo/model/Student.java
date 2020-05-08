@@ -1,21 +1,13 @@
 package springdemo.model;
 
-import java.util.LinkedHashMap;
-
 public class Student {
 
 	public String firstName;
 	public String lastName;
 	public String country;
-	
-	private LinkedHashMap<String, String> countryOptions;
+	public String favoriteLanguage;
 	
 	public Student() {
-		countryOptions = new LinkedHashMap<>();
-		countryOptions.put("FR", "France");
-		countryOptions.put("PT", "Portugal");
-		countryOptions.put("SP", "Spain");
-		countryOptions.put("UK", "England");
 	}
 
 	public String getFirstName() {
@@ -42,8 +34,13 @@ public class Student {
 		this.country = country;
 	}
 
-	public LinkedHashMap<String, String> getCountryOptions() {
-		return countryOptions;
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
+
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
 	}
 	
+
 }
