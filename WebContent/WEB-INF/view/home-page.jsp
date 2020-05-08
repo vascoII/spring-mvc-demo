@@ -10,5 +10,7 @@
 <h2>Spring Demo MVC - Home Page</h2>
 <hr>
 <a href="requestMapping/showForm">Enter our form</a>
+<br><br>
+<a href="student/showForm">Student Form</a>
 </body>
 </html>
