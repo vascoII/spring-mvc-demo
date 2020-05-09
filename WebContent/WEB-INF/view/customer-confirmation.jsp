@@ -8,7 +8,9 @@
 <body>
 	The customer is confirmed : ${customer.firstName} ${customer.lastName} 
 	<br><br>
-	The customer is adult as he is ${customer.age} old 
+	The customer is adult as he is ${customer.age} years old 
+	<br><br>
+	The customer postal code: ${customer.postalCode} 
 	<br><br>
 </body>
 </html>
